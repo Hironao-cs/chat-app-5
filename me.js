@@ -7,13 +7,13 @@ from "https://www.gstatic.com/firebasejs/12.6.0/firebase-database.js";
 // Your web app's Firebase configuration
 // 個人の認証情報
 const firebaseConfig = {
-  apiKey: "AIzaSyBP7mF3ikGRH1t8ZIYOpQhgY-hOnB_II7s",
-  authDomain: "dev30-f18-ccfc8.firebaseapp.com",
-  databaseURL: "https://dev30-f18-ccfc8-default-rtdb.firebaseio.com",
-  projectId: "dev30-f18-ccfc8",
-  storageBucket: "dev30-f18-ccfc8.firebasestorage.app",
-  messagingSenderId: "1052477308186",
-  appId: "1:1052477308186:web:ceb89745c192629ad0c0a3"
+  apiKey: ,
+  authDomain: ,
+  databaseURL: ,
+  projectId: ,
+  storageBucket: ,
+  messagingSenderId: ,
+  appId: 
 };
 
 // Initialize Firebase
