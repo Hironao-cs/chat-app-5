@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私画面</title>
+    <link rel="stylesheet" href="./css/me.css">
+</head>
+
+<body>
+
+    <h1>私画面</h1>
+    <!-- コンテンツ表示画面 -->
+    <div>
+        <!-- 各場所にidを設定しましょう -->
+        <div id="output" class="mychat"></div>
+        <div class="input-area">
+            <div>
+                <textarea id="mytext" placeholder="文章を入力してください" ></textarea>
+            </div>
+            <button id="send">送信</button>
+        </div>
+        <!-- style.cssに "overflow: auto;"を書いてみましょう！※最後に -->
+        
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module"  src="./me.js"></script>
+</body>
+
+</html>

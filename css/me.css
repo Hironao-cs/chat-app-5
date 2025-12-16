@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 20px;
+}
+
+.input-area {
+  display: flex; /* Flexboxを有効にする */
+  width: 500px; /* メッセージ欄と同じ幅にする */
+  margin: 0 auto; /* 中央寄せ */
+  align-items: flex-end;
+  position: relative; /* 縦方向の位置を揃える（ボタンとテキストエリアの下端を揃える）*/
+}
+
+.input-area > div {
+  flex-grow: 1; /* 残りの利用可能なスペースを全て占有する */
+}
+input {
+  width: 500px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto 50px;
+}
+
+textarea {
+  width: 500px;
+  height: 100px;
+  padding: 10px 110px 60px 10px;
+  resize: none;
+}
+
+button {
+  width: 80px;
+  height: 50px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#output {
+  width: 500px;
+  display: block;
+  height: 500px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 10px;
+  overflow: scroll;
+  background-color: antiquewhite;
+}
+
+#output div:nth-child(odd){
+  margin-left: auto;
+  width:200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: #ccc;
+
+}
+#output div:nth-child(even){
+  margin-right: auto;
+  width:200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: aquamarine;
+
+}
